@@ -1,10 +1,10 @@
-package com.example.nmap;
+package com.burp.suite;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class NmapApplicationTests {
+class SuiteApplicationTests {
 
     @Test
     void contextLoads() {

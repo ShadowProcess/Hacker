@@ -1,13 +1,13 @@
-package com.example.nmap;
+package com.burp.suite;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class NmapApplication {
+public class SuiteApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(NmapApplication.class, args);
+        SpringApplication.run(SuiteApplication.class, args);
     }
 
 }

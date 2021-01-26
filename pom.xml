@@ -21,7 +21,7 @@
 
     <modules>
         <module>nmap</module>
-        <module>command</module>
+        <module>shell</module>
     </modules>
 
 </project>
