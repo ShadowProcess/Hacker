@@ -20,7 +20,7 @@
     </properties>
 
     <modules>
-        <module>suite</module>
+        <module>burp-suite</module>
     </modules>
 
 </project>
