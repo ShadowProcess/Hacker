@@ -53,3 +53,11 @@ Received 1818 packets, got 20 answers, remaining 4 packets
 
 执行以上命令后，输出如下所示的信息：
 输出的信息显示了该网络中的所有IP地址。
+
+
+
+```text
+emission /ɪˈmɪʃn/ 
+n. （光、热等的）发射，散发；喷射；发行
+n. (Emission)人名；(英)埃米申
+```
