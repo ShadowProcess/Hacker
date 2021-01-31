@@ -17,3 +17,6 @@ pack() {
         zip -r ../target.zip templates static com config
         cd $dir
 }
+
+# 立即生效
+source /~/.bashrc
